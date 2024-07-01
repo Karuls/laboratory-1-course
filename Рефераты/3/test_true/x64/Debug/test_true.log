@@ -1,0 +1,4 @@
+﻿  test_true.cpp
+Q:\VISUAL STUDIO\Рефераты\3\test_true\test_true.cpp(36,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+Q:\VISUAL STUDIO\Рефераты\3\test_true\test_true.cpp(264,11): warning C4101: q: неиспользованная локальная переменная
+  test_true.vcxproj -> Q:\VISUAL STUDIO\Рефераты\3\test_app\x64\Debug\test_true.exe

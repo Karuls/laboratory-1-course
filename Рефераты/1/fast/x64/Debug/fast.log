@@ -1,0 +1,4 @@
+﻿  fast.cpp
+Q:\VISUAL STUDIO\Рефераты\fast\fast.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+Q:\VISUAL STUDIO\Рефераты\fast\fast.cpp(36,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  fast.vcxproj -> Q:\VISUAL STUDIO\Рефераты\Project1\x64\Debug\fast.exe

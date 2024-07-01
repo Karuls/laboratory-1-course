@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : Процесс не может получить доступ к файлу "q:\visual studio\оаип\laba 2\x64\debug\dop4.1.pdb", так как этот файл используется другим процессом.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lab2.vcxproj, Project1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  ocnova2.cpp
+  Project1.vcxproj -> Q:\VISUAL STUDIO\ОАиП\Laba 2\x64\Debug\ocnova2.exe

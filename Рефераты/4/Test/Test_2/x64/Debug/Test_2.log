@@ -1,0 +1,4 @@
+﻿  Test_2.cpp
+Q:\VISUAL STUDIO\Рефераты\4\Test\Test_2\Test_2.cpp(34,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+Q:\VISUAL STUDIO\Рефераты\4\Test\Test_2\Test_2.cpp(38,11): warning C4101: Res_Zn: неиспользованная локальная переменная
+  Test_2.vcxproj -> Q:\VISUAL STUDIO\Рефераты\4\Test\x64\Debug\Test_2.exe

@@ -1,0 +1,4 @@
+﻿  Task_3.cpp
+Q:\VISUAL STUDIO\Рефераты\6\Task_3\Task_3.cpp(41,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+Q:\VISUAL STUDIO\Рефераты\6\Task_3\Task_3.cpp(127,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Task_3.vcxproj -> Q:\VISUAL STUDIO\Рефераты\6\test_1\x64\Debug\Task_3.exe

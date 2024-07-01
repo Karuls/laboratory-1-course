@@ -1,0 +1,4 @@
+﻿  osnova.2.cpp
+Q:\VISUAL STUDIO\ОАиП\Лабораторная работа № 3. Работа с файлами на языке С++\osnova.2\osnova.2.cpp(11,23): warning C4101: str: неиспользованная локальная переменная
+Q:\VISUAL STUDIO\ОАиП\Лабораторная работа № 3. Работа с файлами на языке С++\osnova.2\osnova.2.cpp(51,18): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  osnova.2.vcxproj -> Q:\VISUAL STUDIO\ОАиП\Лабораторная работа № 3. Работа с файлами на языке С++\ocnova.1\x64\Debug\osnova.2.exe

@@ -1,0 +1,7 @@
+﻿  SE_Lab02.cpp
+Q:\VISUAL STUDIO\Конструирование программного обеспечения\SE_Lab02\SE_Lab02.cpp(33,16): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+Q:\VISUAL STUDIO\Конструирование программного обеспечения\SE_Lab02\SE_Lab02.cpp(34,16): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+Q:\VISUAL STUDIO\Конструирование программного обеспечения\SE_Lab02\SE_Lab02.cpp(45,8): warning C4101: operation: неиспользованная локальная переменная
+Q:\VISUAL STUDIO\Конструирование программного обеспечения\SE_Lab02\SE_Lab02.cpp(40): warning C4723: возможное деление на 0
+Q:\VISUAL STUDIO\Конструирование программного обеспечения\SE_Lab02\SE_Lab02.cpp(39): warning C4723: возможное деление на 0
+  SE_Lab02.vcxproj -> Q:\VISUAL STUDIO\Конструирование программного обеспечения\SE_Lab02\x64\Debug\SE_Lab02.exe

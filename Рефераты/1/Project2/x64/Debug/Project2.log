@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Project2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  test.cpp
+Q:\VISUAL STUDIO\Рефераты\Project2\test.cpp(10,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+Q:\VISUAL STUDIO\Рефераты\Project2\test.cpp(36,27): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+Q:\VISUAL STUDIO\Рефераты\Project2\test.cpp(48,9): warning C4101: buffer: неиспользованная локальная переменная
+  Project2.vcxproj -> Q:\VISUAL STUDIO\Рефераты\Project1\x64\Debug\bubble.exe

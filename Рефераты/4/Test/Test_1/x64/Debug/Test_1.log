@@ -1,0 +1,3 @@
+﻿  Test_1.cpp
+Q:\VISUAL STUDIO\Рефераты\4\Test\Test_1\Test_1.cpp(54,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Test_1.vcxproj -> Q:\VISUAL STUDIO\Рефераты\4\Test\x64\Debug\Test_1.exe

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+Q:\VISUAL STUDIO\ОАиП\Laba 2\dop10.1\Source.cpp(30,33): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+Q:\VISUAL STUDIO\ОАиП\Laba 2\dop10.1\Source.cpp(31,37): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  dop10.1.vcxproj -> Q:\VISUAL STUDIO\ОАиП\Laba 2\x64\Debug\dop10.1.exe

@@ -1,0 +1,5 @@
+﻿  test_5.cpp
+Q:\VISUAL STUDIO\Рефераты\6\test_5\test_5.cpp(206,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+Q:\VISUAL STUDIO\Рефераты\6\test_5\test_5.cpp(221,40): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+Q:\VISUAL STUDIO\Рефераты\6\test_5\test_5.cpp(224,22): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  test_5.vcxproj -> Q:\VISUAL STUDIO\Рефераты\6\test_1\x64\Debug\test_5.exe

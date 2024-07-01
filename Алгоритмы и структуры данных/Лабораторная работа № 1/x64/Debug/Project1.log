@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+Q:\VISUAL STUDIO\Алгоритмы и структуры данных\laba 1\FileName.cpp(27,14): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+Q:\VISUAL STUDIO\Алгоритмы и структуры данных\laba 1\FileName.cpp(50,34): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Project1.vcxproj -> Q:\VISUAL STUDIO\Алгоритмы и структуры данных\laba 1\x64\Debug\Project1.exe
