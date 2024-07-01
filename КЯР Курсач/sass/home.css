@@ -1,0 +1,376 @@
+body {
+  margin: 0%;
+  background-color: #333232;
+  line-height: normal;
+}
+
+.mustang > img {
+  width: 100%;
+  display: flex;
+}
+
+.mustang {
+  vertical-align: middle;
+}
+
+* {
+  padding: 0;
+}
+
+header {
+  background-color: #262626;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding {
+  font-size: 2rem;
+}
+
+.man-link {
+  transition: 0.7s ease;
+}
+
+.man-link:hover {
+  color: dodgerblue;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0, 3s ease-in-out;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 53px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+}
+.div {
+  position: absolute;
+  display: block;
+  width: 50%;
+  height: 34vw;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 0, 0, 0.631372549);
+  font-family: Jura;
+  margin-left: 50%;
+  margin-top: -44%;
+}
+
+.p-first {
+  padding: 0;
+  font-size: 4vw;
+  font-weight: 700;
+  background: linear-gradient(to right, rgb(138, 132, 0), rgb(213, 211, 167));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 8vw;
+  width: 50vw;
+}
+
+.p-second {
+  padding: 0;
+  font-size: 3vw;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 8vw;
+  width: 50vw;
+}
+
+.just_a_div {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgb(138, 132, 0), rgb(213, 211, 167));
+  margin-top: 6%;
+  font-size: 4.5vw;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+main > .div {
+  display: flex;
+  width: 100%;
+  margin: 7% 0 0 0;
+  font-size: 300%;
+  background: linear-gradient(90.84deg, rgba(169, 181, 0, 0.58) 8.64%, rgba(108, 101, 64, 0.78));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 18%;
+}
+
+.car_models {
+  margin: 10% 0 0 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.car_models > div {
+  position: relative;
+}
+
+.car_models > div > img {
+  width: 90%;
+}
+
+.car_models > div > p {
+  width: 30%;
+  display: flex;
+  position: absolute;
+  text-decoration: none;
+  font-size: 32px;
+  top: 0;
+  left: 5%;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+}
+
+.arrow-down-svgrepo-com-1-icon {
+  display: flex;
+  width: 10%;
+  position: relative;
+  margin: 5% 45%;
+}
+
+footer > a > img {
+  width: 100%;
+  display: flex;
+  filter: blur(2px);
+}
+
+footer > a > img:hover {
+  transition: 1s;
+  width: 101%;
+  filter: blur(0px);
+}
+
+footer > a > img:active {
+  transition: 1s;
+  width: 101%;
+  filter: blur(0px);
+}
+
+@media only screen and (max-width: 1024px) {
+  .car_models > div > p {
+    width: 25%;
+    font-size: 23px;
+    font-weight: 700;
+    height: 18%;
+  }
+  main > .div {
+    font-size: 270%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  main > .div {
+    font-size: 220%;
+  }
+}
+@media (max-width: 670px) {
+  .footer-div {
+    flex-direction: column;
+    text-align: center;
+    margin: unset;
+  }
+  .footer-div > .foot-div-logo > img {
+    width: 12vw;
+    height: 6vw;
+  }
+  .footer-div br {
+    display: none;
+  }
+  .footer-div a, p {
+    font-size: 4.5vw;
+  }
+  .footer-div h3 {
+    font-size: 5.5vw;
+  }
+  .footer-div > .Contacts .svg {
+    width: 8vw;
+    height: 8vw;
+  }
+  .footer-div > .Contacts img {
+    width: 8vw;
+    height: 8vw;
+  }
+  .footer-div > .foot-div-logo > a {
+    font-size: 7vw;
+    font-weight: 300;
+  }
+  .footer-div > .questions .svg {
+    width: 8vw;
+    height: 8vw;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .car_models > div > p {
+    width: 40%;
+    font-size: 18px;
+    font-weight: 600;
+    height: 18%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  main > .div {
+    font-size: 170%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .car_models > div > p {
+    width: 40%;
+    font-size: 13px;
+    font-weight: 600;
+    height: 18%;
+  }
+  main > .div {
+    font-size: 140%;
+  }
+  .navbar {
+    padding: 0 9px;
+  }
+}
+footer {
+  margin-top: 5%;
+}
+
+.footer-div {
+  display: flex;
+  width: 100%;
+  background-color: #333232;
+  justify-content: space-around;
+}
+
+.footer-div .sections, .Contacts h3 {
+  color: white;
+}
+
+.footer-div a, p {
+  font-weight: 200;
+}
+
+.line-div {
+  width: 100%;
+  position: relative;
+  filter: drop-shadow(0px 12px 4px rgba(0, 0, 0, 0.25));
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  height: 1px;
+}
+
+.footer-div img, .svg {
+  width: 20px;
+  height: 20px;
+}
+
+.foot-div-logo a {
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+
+.foot-div-logo img {
+  width: 4vw;
+  height: 2vw;
+}
+
+.questions h3 {
+  color: white;
+}
+
+.p {
+  margin: 0;
+}
+
+.txt {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.footer-div .Contacts div {
+  margin-bottom: 5%;
+}
+
+.footer-div .questions div {
+  margin-bottom: 5%;
+}
+
+.footer-div .sections div {
+  margin-bottom: 5%;
+}/*# sourceMappingURL=home.css.map */

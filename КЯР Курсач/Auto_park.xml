@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+<info_about_car_example>
+<articul>0001</articul>
+<a-motor-V>6.2л</a-motor-V>
+<a-motor-HP>702 л.с.</a-motor-HP>
+<Toplivo>Бензин</Toplivo>
+<data-year>2021</data-year>
+<cost>115.000$</cost>
+</info_about_car_example>
+
+<info_about_car_example>
+<articul>0002</articul>
+<a-motor-V>5.5л</a-motor-V>
+<a-motor-HP>585 л.с.</a-motor-HP>
+<Toplivo>Бензин</Toplivo>
+<data-year>2018</data-year>
+<cost>145.000$</cost>
+</info_about_car_example>
+
+<info_about_car_example>
+<articul>0003</articul>
+<a-motor-V>3.6л</a-motor-V>
+<a-motor-HP>335 л.с.</a-motor-HP>
+<Toplivo>Бензин</Toplivo>
+<data-year>2018</data-year>
+<cost>70.000$</cost>
+</info_about_car_example>
+
+<info_about_car_example>
+<articul>0004</articul>
+<a-motor-V>3.8л</a-motor-V>
+<a-motor-HP>400 л.с.</a-motor-HP>
+<Toplivo>Бензин</Toplivo>
+<data-year>2019</data-year>
+<cost>80.000$</cost>
+</info_about_car_example>
+
+<info_about_car_example>
+<articul>0005</articul>
+<a-motor-V>4.0л</a-motor-V>
+<a-motor-HP>600 л.с.</a-motor-HP>
+<Toplivo>Бензин</Toplivo>
+<data-year>2022</data-year>
+<cost>65.000$</cost>
+</info_about_car_example>
+
+<info_about_car_example>
+<articul>0006</articul>
+<a-motor-V>2.0л</a-motor-V>
+<a-motor-HP>150 л.с.</a-motor-HP>
+<Toplivo>Дизель</Toplivo>
+<data-year>2021</data-year>
+<cost>15.000$</cost>
+</info_about_car_example>
+
+ </xml>

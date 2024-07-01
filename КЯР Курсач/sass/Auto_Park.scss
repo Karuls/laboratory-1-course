@@ -1,0 +1,418 @@
+@mixin for_img{
+    width: 100%;
+    display: flex;
+}
+body{
+  margin: 0%;
+  background-color: #333232;
+  line-height: normal;
+}
+.ban > img{
+    @include for_img();
+}
+
+.ban > .mobile-png{
+    display: none;
+}
+
+// header
+main *, header * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #262626;
+  }
+  header > div{
+    display: flex;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .nav-branding {
+    font-size: 2rem;
+  }
+  
+  .man-link {
+    transition: 0.7s ease;
+  }
+  
+  .man-link:hover {
+    color: dodgerblue;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0, 3s ease-in-out;
+    transition: all 0, 3s ease-in-out;
+    background-color: white;
+  }
+  //
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+      transition: 0.2s;
+    }
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+      transition: 0.5s;
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+      transition: 0.5s;
+    }
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 53px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #262626;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .nav-item {
+      margin: 16px 0;
+    }
+    .nav-menu.active {
+      left: 0;
+    }
+    //----------hamburger if finish
+    }
+  
+
+  //------------------------------------------------------------main
+.catalog_of_cars{
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-evenly;
+}
+.example_of_car{
+  background-color: #0000001C;
+  width: fit-content;
+  height: 38vw;
+}
+
+.example_of_car img{
+  display: flex;
+  width: 30vw;
+}
+.example_of_car p{
+font-size: 2.5vw;
+letter-spacing: 0.05em;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 3.5vw;
+background: linear-gradient(to right, rgba(149, 130, 18, 0.832) 80%, rgb(230 227 227 / 55%)25%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.example_of_car p:hover{
+  background: linear-gradient(to right, rgba(210, 210, 206, 0.832) 70%, rgba(250, 225, 5, 0.55)30%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+.info_about_car_example img {
+display: flex;
+width: 3.5vw;
+height: 3vw;
+}
+
+.info_about_car_example > div{
+display: flex;
+align-items: center;
+  justify-content: left;
+  text-align: left;
+  margin-top: 8%;
+  height: 5%;
+}
+
+.info_about_car_example > div > a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2vw;
+  }
+  .info_about_car_example{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+    height: 14vw;
+  }
+
+  .cost{
+    margin-left: 49%;
+  }
+  //------------------------------------------------------------------------------
+  @media (max-width: 1024px){
+    .info_about_car_example{
+      margin-top: -2%;
+    }
+
+    .footer-div .Contacts div{
+      margin-bottom:5% ;
+    }
+    .footer-div .questions div{
+      margin-bottom:5% ;
+    }
+    .footer-div .sections div{
+      margin-bottom:5% ;
+    }
+  }
+  //------------------------------------------------------------------------------
+  @media (max-width: 360px){
+    .ban > .mobile-png{
+        display: flex;
+        height: 50%;
+    }
+    .ban > .dekstop-png{
+        display: none;
+    }
+
+    .footer-div > .sections  > a > p{
+      font-size: 6.2vw;
+      font-weight: 100;
+      }
+
+      .footer-div > .Contacts > div > a {
+        font-size: 5.5vw;
+        }
+
+        .footer-div > .questions > div > a {
+          font-size: 5.5vw;
+          }
+
+     .footer-div > .questions h3{
+    font-size: 7vw;
+     }
+     .footer-div > .Contacts h3{
+      font-size: 7vw;
+       }
+       .footer-div > .sections h3{
+        font-size: 7vw;
+         }
+       
+
+  }
+
+  @media (max-width: 770px){//-------catalog starrt
+    .catalog_of_cars{
+      display: flex;
+      margin-top: 5%;
+      height: 80%;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: -4%;
+    }
+   .example_of_car{
+  height: 80vw;
+  margin-bottom: 6%;
+    }
+    .example_of_car img{
+      width: 70vw;
+    }
+
+
+    
+
+    
+    .example_of_car p{
+      font-size: 5vw;
+      letter-spacing: 0.05em;
+      height: 9%;
+      
+      }
+      
+      .info_about_car_example img {
+      display: flex;
+      width: 9%;
+      height: 350%;
+      }
+      
+      .info_about_car_example > div{
+      display: flex;
+      align-items: center;
+        justify-content: left;
+        text-align: left;
+        height: 6%;
+        margin-top: 6%;
+      }
+      
+      .info_about_car_example > div > a{
+        font-size: 4.2vw;
+        }
+        .info_about_car_example{
+          display: block;
+          align-items: center;
+          text-align: center;
+          margin-top: -4%;
+          height: 26vw;
+        }
+  }//-------catalog finish
+
+  footer > a > img{
+    @include for_img();
+     filter: blur(2px);
+ }
+ 
+ footer > a >img:hover{
+     transition: 1s;
+     width: 101%;
+     filter: blur(0px);
+ }
+
+ @media (max-width: 670px) {//------------
+  
+  .footer-div{
+    flex-direction: column;
+    text-align: center;
+    margin:unset;
+  }
+
+.footer-div >.foot-div-logo > img{
+  width: 12vw;
+  height: 6vw;
+}
+
+ .footer-div br{display: none;}
+
+ .footer-div a,p{
+  font-size: 4.5vw;
+ }
+ .footer-div h3{
+font-size: 5.5vw;
+ }
+ .footer-div > .Contacts .svg{
+  
+  width: 8vw;
+  height: 8vw;
+
+  }
+
+  .footer-div > .Contacts img{
+    width: 8vw;
+    height: 8vw;
+    }
+
+
+ .footer-div > .foot-div-logo > a{
+  font-size: 7vw;
+  font-weight: 300;
+  
+  } 
+
+  
+  .footer-div > .questions .svg{
+  
+    width: 8vw;
+    height: 8vw;
+    }
+
+ 
+}//----------------------------------------
+ footer{
+  margin-top: 5%;
+ }
+.footer-div{
+  display: flex;
+  width: 100%;
+  background-color: #333232;
+  justify-content: space-around;
+  
+
+}
+.footer-div .sections,.Contacts h3
+{
+  color: white;
+  
+}
+
+.footer-div  a,p{
+font-weight: 200;
+}
+.line-div {
+  width: 100%;
+  position: relative;
+  filter: drop-shadow(0px 12px 4px rgba(0, 0, 0, 0.25));
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  height: 1px;
+}
+.footer-div img, .svg{
+width: 20px;
+height: 20px;
+}
+
+.questions h3{
+color: white;
+}
+.p {
+  margin: 0;
+}
+.txt {
+  width: 100%;
+  padding: 0 5%;
+}
+//-----
+.footer-div .Contacts div{
+  margin-bottom:5% ;
+}
+.footer-div .questions div{
+  margin-bottom:5% ;
+}
+.footer-div .sections div{
+  margin-bottom:5% ;
+}
+
+.foot-div-logo a{
+  font-size: 2.5vw;
+  font-weight: 400;
+  }
+  
+  .foot-div-logo img{
+    width: 4vw;
+    height: 2vw;
+    
+    }
+//-----
